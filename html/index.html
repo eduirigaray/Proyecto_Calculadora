@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Golpea al fantasma</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="title"><span>Golpea al fantasma</span></div>
+
+        <div class="game-container">
+
+            <div class="block" id="1">
+                 <img src="../ghost.png" alt="">
+            </div>
+
+            <div class="block" id="2">
+                <img src="../ghost.png" alt="">
+            </div>
+
+            <div class="block" id="3">
+                <img src="../ghost.png" alt="">
+            </div>
+
+            <div class="block" id="4">
+                <img src="../ghost.png" alt="">
+            </div>
+
+            <div class="block" id="5">
+                <img src="../ghost.png" alt="">
+            </div>
+
+            <div class="block" id="6">
+                <img src="../ghost.png" alt="">
+            </div>
+
+            <div class="block" id="7">
+                <img src="../ghost.png" alt="">
+            </div>
+
+            <div class="block" id="8">
+                <img src="../ghost.png" alt="">
+            </div>
+
+            <div class="block" id="9">
+                <img src="../ghost.png" alt="">
+            </div>
+
+            <div class="block" id="10">
+                <img src="../ghost.png" alt="">
+            </div>
+
+            <div class="block" id="11">
+                <img src="../ghost.png" alt="">
+            </div>
+
+            <div class="block" id="12">
+                <img src="../ghost.png" alt="">
+            </div>
+
+            <div class="block" id="13">
+                <img src="../ghost.png" alt="">
+            </div>
+
+            <div class="block" id="14">
+                <img src="../ghost.png" alt="">
+            </div>
+
+            <div class="block" id="15">
+                <img src="../ghost.png" alt="">
+            </div>
+
+            <div class="block" id="16">
+                <img src="../ghost.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="result-container">
+
+            <div class="score">Puntuación: <span id="score__text">0</span>
+            </div>
+
+            <div class="time-left">Tiempo restante: <span id="timer">--</span>
+            </div>
+
+        </div>
+
+        <div class="controls">
+
+            <div class="speed__div box" >                
+                <select id="gameSpeed">                      
+                    <option value="1000">Lento<i class='fas fa-chevron-circle-down'></i></option>
+                    <option value="750">Normal</option>
+                    <option value="500">Rápido</option>                      
+                </select>
+                <i class='fas fa-chevron-circle-down'></i>                 
+            </div>
+            <div id="play"><p id="play__text">Jugar</p></div>
+            
+            <div class="duration">
+                <select id="dur__drop">                      
+                    <option value="10">10s</option>
+                    <option value="30">30s</option>
+                    <option value="60">60s</option>                      
+                  </select>
+                  <i class='fas fa-chevron-circle-down'></i>                 
+            </div>
+
+        </div>
+
+    </div>
+
+<div id="myModal" class="modal">
+
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Se acabó el tiempo. Tu puntuación es: <b><span id='modal--score'></span></b> puntos</p>
+    </div>
+  
+  </div>
+
+    <script src="../modules/script.js"></script>
+
+</body>
+</html>
